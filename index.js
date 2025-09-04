@@ -1,5 +1,5 @@
 export default function index() {
-  const socket = WebSocket("wss://chat-front-phi-murex.vercel.app:8089");
+  const socket = WebSocket("wss://chat-front-phi-murex.vercel.app");
   return (
     <div>
       <h1>Socket.io</h1>
